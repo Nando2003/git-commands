@@ -53,6 +53,27 @@ O comando ```git add``` é utilizado para adicionar arquivos ao índice, prepara
 
 ## Commitando as Alterações
 
-Chegamos no sujeito mais balado do git, o ```git commit```. Esse comando é responsavel por levar as mudanças de um ambiente local para o repositório no git, permitindo a inclusão de uma mensagem que descreva o que foi alterado. Essa parte é de grande importancia para os 
+```bash
+$ git commit -m "Descreva a alteração"
+```
+
+Chegamos no sujeito mais balado do git, o ```git commit```. Esse comando é responsavel por levar as mudanças de um ambiente local para o repositório no git, permitindo a adição de uma mensagem que descreva o que foi alterado. Essa parte é de grande importancia para os 
 desenvolvedores, pois permite que eles documentem as alterações feitas no código, facilitando o entendimento do histórico de desenvolvimento do projeto e ajudando na colaboração em equipe.
+
+### Como escrever um commit?
+
+Para aprendermos a escrever commits, precisamos primeiramente entender a padronização.
+
+Um projeto com commits bem organizados é um projeto que <b>documenta um histórico</b>. Ele mostra o que foi feito ao longo do tempo, criando um registro detalhado. Então é necessário que tenha uma padronização como as coisas são entregues para que o código não fique uma bagunça e que <b>todos se entendam</b>. 
+
+#### Algumas Tipos de commits:
+
+- (feat): Incluir um novo recurso.
+- (wip): Indica que você ainda não terminou o que estava fazendo.
+- (fix): Uma correção de bug foi realizada.
+- (refractor): melhorias no código sem alterar a funcionalidade, como na legibilidade.
+- (test): você criou ou corrigiu um teste.
+- (docs): alteração na documentação, por exemplo: eu adicionei mais informação a esse README.md então meu commit seria ```git commit -m "(doc) explicação mais detalhada sobre git commit foi adicionada"```
+
+
 
