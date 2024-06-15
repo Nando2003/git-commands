@@ -33,18 +33,22 @@ Quando o ```git init``` é executado em um diretório, o Git cria um subdiretór
 $ git status
 ```
 
-Antes de começarmos a falar sobre esse comando, devemos entender os estados dos arquivos no git.
+O comando ```git status``` é utilizado para mostrar o estado de cada arquivo e pasta dentro do seu repositorio local. Os estados que você pode encontrar eles, são:
 
 - <b>Untracked:</b> são arquivos que existem no repositorio local, mas o Git não está ciente deles. Isso geralmente acontece com novos arquivos que ainda não foram adicionados no controle de versão.
 - <b>Unmodified:</b> são arquivos que existem no repositorio local e não foram editados ou modificados.
 - <b>Modified:</b> são arquivos que foram modificados ou editados no seu repositorio local.
 - <b>Stage:</b> são arquivos que foram adicionados ao índice e estão prontos para serem commitados.
 
-<center>
-![image](https://github.com/Nando2003/git-commands/assets/80061398/93d06e65-e24c-43ba-8065-7d0181d38b73)
-</center>
+![image](images/lifecycle.png)
 
+## Adição de arquivos e pastas ao índice
 
-<!-- ![image](https://github.com/Nando2003/git-commands/assets/80061398/af55a955-b727-411d-8450-20f2eefe7565) -->
+```bash
+$ git add <arquivo>
+$ git add .
+```
+
+O comando ```git add``` é utilizado para adicionar arquivos ao estado de Stage, preparando-os para serem incluídos no próximo commit. Ele não apenas adiciona arquivos modificados ao estágio, mas também arquivos untracked ao estado Stage.
 
 
