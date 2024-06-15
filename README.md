@@ -88,7 +88,7 @@ As Branches são ramificações no Git que permitem que os desenvolvedores desen
 
 Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch-padrão, casualmente chamada de main ou master, e precisamos desenvolver o back-end separadamente do front-end então nos criamos branchs diferentes a partir de um ponto de começo e depois unindo-as com um merge na branch-padrão.
 
-![Diagrama sem nome drawio (8)](https://github.com/Nando2003/git-commands/assets/80061398/2f10779c-aab2-4768-b94d-4b7e7b1f1c6b)
+![Diagrama sem nome drawio (9)](https://github.com/Nando2003/git-commands/assets/80061398/a4a47adf-adf5-41b4-ac40-e5942b18cd2e)
 
 ### Criando uma Branch
 
