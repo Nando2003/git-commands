@@ -126,5 +126,11 @@ $ git checkout -b [NOME DA BRANCH]
 $ git checkout [NOME DA BRANCH]
 ```
 
+## Repositórios Remotos
+
+Repositórios remotos são repositórios que ficam em um servidor remoto, como o GitHub. Suas principais funcionalidades são para armazenar e compartilhar o código com outras pessoas que colaboram no projeto.
+
+### 
+
 
 
