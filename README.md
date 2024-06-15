@@ -49,6 +49,10 @@ $ git add <arquivo>
 $ git add .
 ```
 
-O comando ```git add``` é utilizado para adicionar arquivos ao estado de Stage, preparando-os para serem incluídos no próximo commit. Ele não apenas adiciona arquivos modificados ao estágio, mas também arquivos untracked ao estado Stage.
+O comando ```git add``` é utilizado para adicionar arquivos ao índice, preparando-os para serem incluídos no próximo commit. Ele não apenas adiciona arquivos modificados, mas também arquivos untracked ao estado Staged.
 
+## Commitando as Alterações
+
+Chegamos no sujeito mais balado do git, o ```git commit```. Esse comando é responsavel por levar as mudanças de um ambiente local para o repositório no git, permitindo a inclusão de uma mensagem que descreva o que foi alterado. Essa parte é de grande importancia para os 
+desenvolvedores, pois permite que eles documentem as alterações feitas no código, facilitando o entendimento do histórico de desenvolvimento do projeto e ajudando na colaboração em equipe.
 
