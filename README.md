@@ -179,8 +179,13 @@ $ git clone <URL DO REPOSITORIO REMOTO>
 ```
 
 # Referências:
+
 [Apostila de Git e GitHub](https://github.com/PaPaPaulitos/lab-git-e-github/tree/main)
+
 [15 COMANDOS GIT QUE VÃO TE AJUDAR A PROGRAMAR](https://blog.somostera.com/desenvolvimento-web/comandos-git#:~:text=O%20commit%20é%20um%20comando,pessoas%20o%20que%20ela%20fez.)
+
 [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
 [How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+
 [Sobre ramificações](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
