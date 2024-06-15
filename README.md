@@ -21,6 +21,7 @@ O comando ```git config``` é usado para configurar variáveis de configuração
 ```bash
 $ git init
 ```
+
 O ```git init``` é um dos comandos mais fundamentais e importantes no Git. Ele é utilizado para criar um novo repositório Git em um diretório existente ou para inicializar um repositório vazio para começar a usar o controle de versão. 
 
 Quando o ```git init``` é executado em um diretório, o Git cria um subdiretório oculto chamado .git, que contém todos os arquivos necessários para o repositório. Esses arquivos incluem o histórico de revisões, as configurações do repositório e outros metadados que o Git usa para rastrear as alterações no projeto.
@@ -41,6 +42,8 @@ O comando ```git status``` é utilizado para mostrar o estado de cada arquivo e 
 - <b>Stage:</b> são arquivos que foram adicionados ao índice e estão prontos para serem commitados.
 
 ![image](images/lifecycle.png)
+
+> Imagem retidada do site [Oficial do Git](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 ## Adição de arquivos e pastas ao índice
 
@@ -73,7 +76,13 @@ Um projeto com commits bem organizados é um projeto que <b>documenta um histór
 - (fix): Uma correção de bug foi realizada.
 - (refractor): melhorias no código sem alterar a funcionalidade, como na legibilidade.
 - (test): você criou ou corrigiu um teste.
-- (docs): alteração na documentação, por exemplo: eu adicionei mais informação a esse README.md então meu commit seria ```git commit -m "(doc) explicação mais detalhada sobre git commit foi adicionada"```
+- (docs): alteração na documentação, por exemplo: eu adicionei mais informação a esse README.md, então meu commit seria:
+
+```bash
+$ git commit -m "(doc) explicação mais detalhada sobre git commit foi adicionada"
+```
+
+## Entendendo as Branchs
 
 
 
