@@ -86,7 +86,7 @@ $ git commit -m "(doc) explicação mais detalhada sobre git commit foi adiciona
 
 As Branches são ramificações no Git que permitem que os desenvolvedores desenvolvam recursos, corrija erros ou experimente com segurança novas ideias em uma área sepada do seu repositório.
 
-Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch-padrão, casualmente chamada de main ou master, e precisamos desenvolver o back-end separadamente do front-end então nos criamos branchs diferentes a partir de um ponto de começo e depois unidas a partir de merge na branch-padrão.
+Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch-padrão, casualmente chamada de main ou master, e precisamos desenvolver o back-end separadamente do front-end então nos criamos branchs diferentes a partir de um ponto de começo e depois unindo-as com um merge na branch-padrão.
 
 ![Diagrama sem nome drawio (8)](https://github.com/Nando2003/git-commands/assets/80061398/2f10779c-aab2-4768-b94d-4b7e7b1f1c6b)
 
