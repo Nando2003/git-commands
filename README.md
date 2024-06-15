@@ -69,7 +69,7 @@ Para aprendermos a escrever commits, precisamos primeiramente entender a padroni
 
 Um projeto com commits bem organizados é um projeto que <b>documenta um histórico</b>. Ele mostra o que foi feito ao longo do tempo, criando um registro detalhado. Então é necessário que tenha uma padronização como as coisas são entregues para que o código não fique uma bagunça e que <b>todos se entendam</b>. 
 
-#### Algumas Tipos de commits:
+#### Algumas tipos de commits:
 
 - (feat): Incluir um novo recurso.
 - (wip): Indica que você ainda não terminou o que estava fazendo.
@@ -82,7 +82,17 @@ Um projeto com commits bem organizados é um projeto que <b>documenta um histór
 $ git commit -m "(doc) explicação mais detalhada sobre git commit foi adicionada"
 ```
 
-## Entendendo as Branchs
+## Entendendo como as Branches
+
+As Branches são ramificações no Git que permitem que os desenvolvedores desenvolvam recursos, corrija erros ou experimente com segurança novas ideias em uma área sepada do seu repositório.
+
+Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch-padrão, casualmente chamada de main ou master, e precisamos desenvolver o back-end separadamente do front-end então nos criamos branchs diferentes a partir de um ponto de começo e depois unidas a partir de merge na branch-padrão.
+
+![Diagrama sem nome drawio (8)](https://github.com/Nando2003/git-commands/assets/80061398/2f10779c-aab2-4768-b94d-4b7e7b1f1c6b)
+
+
+
+
 
 
 
