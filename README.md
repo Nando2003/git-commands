@@ -93,13 +93,13 @@ Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch
 ### Criando uma Branch
 
 ```bash
-$ git branch [NOME DA BRANCH]
+$ git branch <NOME DA BRANCH>
 ```
 
 ### Mudando nome da Branch atual
 
 ```bash
-$ git branch -m [NOME DA BRANCH]
+$ git branch -m <NOME DA BRANCH>
 ```
 
 ### Listando todas as Branchs
@@ -111,26 +111,76 @@ $ git branch
 ### Mergiando uma Branch para outra
 
 ```bash
-$ git merge [NOME DA BRANCH]
+$ git merge <NOME DA BRANCH>
 ```
 
 ### Cria uma branch e te redireciona para ela
 
 ```bash
-$ git checkout -b [NOME DA BRANCH]
+$ git checkout -b <NOME DA BRANCH>
 ```
 
 ### Mudando de Branch
 
-```bash
-$ git checkout [NOME DA BRANCH]
+```bash  
+$ git checkout <NOME DA BRANCH>
 ```
 
 ## Repositórios Remotos
 
 Repositórios remotos são repositórios que ficam em um servidor remoto, como o GitHub. Suas principais funcionalidades são para armazenar e compartilhar o código com outras pessoas que colaboram no projeto.
 
-### 
+---
+
+### Ligando um Repositório local (origin) a um remoto (GitHub)
+
+```bash
+$ git remote add origin <URL DO REPOSITORIO REMOTO>
+```
+
+### Enviar commits para repositório remoto
+
+```bash
+$ git push --set-upstream origin master
+```
+> Caso não exista uma branch-padrão, crie ela usando o código acima.
+
+```bash
+$ git push 
+```
+> OBS: Caso queria subir em outra branch digite somente ```git push <NOME DA BRANCH>```.
+
+---
+
+### Atualizar o repositório local de acordo com o repositório remoto (Pull x Fetch)
+
+Há uma diferença entre pull e fetch apesar dos dois atualizarem seu repositorio local.
+
+- Fetch atualiza seu repositório local com as mudanças do repositório remoto, mas não modifica sua cópia de trabalho ou suas branches locais. Logo, não há chances de dar conflito. 
+- Pull atualiza as referências remotas e mescla as mudanças na branch atual, modificando sua cópia de trabalho. Logo, há chances de dar conflito.
+
+```bash
+$ git fetch 
+```
+
+```bash
+$ git pull 
+```
+
+> OBS: Caso queria subir em outra branch digite somente ```git pull <NOME DA BRANCH>```.
 
 
+## OK. Então como faz para baixar um repositório remoto?
 
+É o comando mais simples da lista, aonde basta abrir um terminal em uma diretorio e simplemente digitar ```git clone``` junto com o url do repositório que deseja possuir.
+
+```bash
+$ git clone <URL DO REPOSITORIO REMOTO>
+```
+
+# Referências:
+[Apostila de Git e GitHub](https://github.com/PaPaPaulitos/lab-git-e-github/tree/main)
+[15 COMANDOS GIT QUE VÃO TE AJUDAR A PROGRAMAR](https://blog.somostera.com/desenvolvimento-web/comandos-git#:~:text=O%20commit%20é%20um%20comando,pessoas%20o%20que%20ela%20fez.)
+[Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+[How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+[Sobre ramificações](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
