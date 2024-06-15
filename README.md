@@ -6,7 +6,17 @@ Olá, meu nome é [Fernando Luiz Farias Fontes](https://github.com/Nando2003/Nan
 
 Desde cedo, sempre tive uma forte conexão com a tecnologia, mas foi após escrever meu primeiro "Hello World" que realmente me apaixonei por esta área tão incrível, que está presente no nosso dia a dia em todos os lugares. E estou aqui agora para passar um pouco do que eu sei sobre a ferramenta que é indispensável em qualquer projeto minimamente estruturado e organizado, que é o Git.
 
-## Comandos Básicos
+## Configuração Incial
+
+```bash
+$ git config --global user.name "Seu Username"
+$ git config --global user.email "Email da sua conta no github"
+```
+
+O comando ```git config``` é usado para configurar variáveis de configuração do Git, e essas variáveis controlam o comportamento do Git em vários aspectos. As configurações ```user.name``` e ```user.email``` são utilizadas para identificar quem fez um commit dentro de um repositório, sendo informações importantes para atribuir autoria aos commits. Essas configurações são essenciais para garantir a integridade e a rastreabilidade do histórico de commits de um projeto Git.
+
+
+## Iniciando um Repositório Local
 
 ```bash
 $ git init
@@ -16,3 +26,25 @@ O ```git init``` é um dos comandos mais fundamentais e importantes no Git. Ele 
 Quando o ```git init``` é executado em um diretório, o Git cria um subdiretório oculto chamado .git, que contém todos os arquivos necessários para o repositório. Esses arquivos incluem o histórico de revisões, as configurações do repositório e outros metadados que o Git usa para rastrear as alterações no projeto.
 
 ![image](https://github.com/Nando2003/git-commands/assets/80061398/b4eb4540-ba97-49ed-b89e-9cc60be068c4)
+
+## Verificação do Status
+
+```bash
+$ git status
+```
+
+Antes de começarmos a falar sobre esse comando, devemos entender os estados dos arquivos no git.
+
+- <b>Untracked:</b> são arquivos que existem no repositorio local, mas o Git não está ciente deles. Isso geralmente acontece com novos arquivos que ainda não foram adicionados no controle de versão.
+- <b>Unmodified:</b> são arquivos que existem no repositorio local e não foram editados ou modificados.
+- <b>Modified:</b> são arquivos que foram modificados ou editados no seu repositorio local.
+- <b>Stage:</b> são arquivos que foram adicionados ao índice e estão prontos para serem commitados.
+
+<center>
+![image](https://github.com/Nando2003/git-commands/assets/80061398/93d06e65-e24c-43ba-8065-7d0181d38b73)
+</center>
+
+
+<!-- ![image](https://github.com/Nando2003/git-commands/assets/80061398/af55a955-b727-411d-8450-20f2eefe7565) -->
+
+
