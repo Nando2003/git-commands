@@ -90,9 +90,41 @@ Uma Branch é criada a partir de uma existe. Por exemplo, quando temos é branch
 
 ![Diagrama sem nome drawio (8)](https://github.com/Nando2003/git-commands/assets/80061398/2f10779c-aab2-4768-b94d-4b7e7b1f1c6b)
 
+### Criando uma Branch
 
+```bash
+$ git branch [NOME DA BRANCH]
+```
 
+### Mudando nome da Branch atual
 
+```bash
+$ git branch -m [NOME DA BRANCH]
+```
+
+### Listando todas as Branchs
+
+```bash
+$ git branch
+```
+
+### Mergiando uma Branch para outra
+
+```bash
+$ git merge [NOME DA BRANCH]
+```
+
+### Cria uma branch e te redireciona para ela
+
+```bash
+$ git checkout -b [NOME DA BRANCH]
+```
+
+### Mudando de Branch
+
+```bash
+$ git checkout [NOME DA BRANCH]
+```
 
 
 
