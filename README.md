@@ -2,7 +2,7 @@
 Bem-vindo ao guia "Comandos Git para Iniciantes". Neste README.md, Você encontrá uma introdução aos conceitos básicos do Git, a ferramenta de controle de versão mais popular do mundo. Se você está começando sua jornada na área de desenvolvimento, este guia é feito para você. Aqui, você aprenderá como aplicar Git de maneira prática em seus futuros projetos, tornando seu fluxo de trabalho mais organizado e colaborativo.
 
 ## Quem sou eu?
-Olá, meu nome é [Fernando Luiz Farias Fontes](https://github.com/Nando2003/Nando2003). Atualmente, estou cursando Ciência da Computação na Universidade Estácio de Sá e faço parte do laboratório [Fuzzlab-UVA](https://github.com/FuzzyLab-UVA), onde atuo como desenvolvedor back-end especializado em Django e REST Framework.
+Olá, meu nome é [Fernando Luiz Farias Fontes](https://github.com/Nando2003/Nando2003). Atualmente, estou cursando Ciência da Computação na Universidade Estácio de Sá e faço parte do laboratório [Fuzzylab-UVA](https://github.com/FuzzyLab-UVA), onde atuo como desenvolvedor back-end especializado em Django e REST Framework.
 
 Desde cedo, sempre tive uma forte conexão com a tecnologia, mas foi após escrever meu primeiro "Hello World" que realmente me apaixonei por esta área tão incrível, que está presente no nosso dia a dia em todos os lugares. E estou aqui agora para passar um pouco do que eu sei sobre a ferramenta que é indispensável em qualquer projeto minimamente estruturado e organizado, que é o Git.
 
